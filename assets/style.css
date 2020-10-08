@@ -1,0 +1,27 @@
+
+h2 {
+    letter-spacing: 2px;
+}
+
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+/* colors */
+
+.light-green {
+    color: lightgreen;
+}
+
+
+/* header */
+
+a:active{
+    text-transform: uppercase;
+}
+
+ {
+    text-decoration: underline;
+}
+
