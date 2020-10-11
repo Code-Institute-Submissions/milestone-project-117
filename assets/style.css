@@ -42,7 +42,9 @@ h2 {
 
 /* footer */
 
-
+.btn-margin {
+    margin-left: 10px;
+}
 
 
 .btn-no-border {
