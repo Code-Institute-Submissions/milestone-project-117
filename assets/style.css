@@ -54,3 +54,49 @@ h2 {
 .btn-no-border:hover {
     background-color: lightblue;
 }
+
+/* section index.html */
+
+.bg-im-index {
+
+    width: 100%;
+    height: 800px;
+    background-color: black;
+    position: relative;
+    
+
+}
+
+.section-txt-area {
+    position: absolute;
+    width: 80%;
+    height: 30%;
+    background-color: white;
+    z-index: 10;
+    border-radius: 10%;
+    
+}
+
+.section-txt-area-one {
+    left: 10%;
+    top: 2%;
+    right: 10%;
+    
+    
+}
+
+.section-txt-area-two {
+    left: 10%;
+    top: 35%;
+    right: 10%;
+    
+    
+}
+
+.section-txt-area-three {
+    left: 10%;
+    bottom: 2%;
+    right: 10%;
+    
+    
+}
