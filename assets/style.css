@@ -25,10 +25,19 @@ h2 {
     border: none;
 }
 
+.blue-btn:hover {
+    background-color: blue;
+}
+
 .green-btn {
 
     background-color: lightgreen;
     border: none;
+}
+
+
+.green-btn:hover {
+    background-color: green;
 }
 
 
@@ -63,10 +72,13 @@ footer {
     padding-bottom: 15px;
 }
 
-
-footer .green-btn:hover {
-    background-color: lightblue;
+footer i {
+    margin: 20px;
+    font-size: 200%;
+    color: lightgreen;;
 }
+
+
 
 /* section index.html */
 
@@ -139,9 +151,19 @@ footer .green-btn:hover {
     bottom: 7%;
 }
 
+/* I used the help from user "Andrew" in this post "https://stackoverflow.com/questions/7720730/how-to-align-absolutely-positioned-element-to-center" to center align the button" */
+
 section .blue-btn {
     position: absolute;
-    bottom: 1%;
-    left: 25%;
-    right: 25%;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    bottom: 2%;
+    width: 250px;
+    display: block;
+    z-index: 10;
+
+    
+    
 }
