@@ -88,6 +88,17 @@ footer i {
 
 }
 
+footer p {
+    display: inline;
+}
+
+footer h5 {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+
+
 
 /* section index.html */
 
