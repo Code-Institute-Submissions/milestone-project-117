@@ -100,6 +100,8 @@ footer h5 {
 
 
 
+
+
 /* section index.html */
 
 section h2 {
@@ -212,4 +214,5 @@ section .blue-btn {
 
 #pos-relative {
     position: relative;
+    margin-bottom: 15px;
 }
