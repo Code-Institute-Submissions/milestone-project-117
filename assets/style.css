@@ -73,10 +73,7 @@ footer {
     background-color: #f8f9fa;
 }
 
-footer i .round {
-    margin: 0;
-    border-radius: 50%;
-}
+
 
 footer i {
 
@@ -90,11 +87,14 @@ footer i {
 
 footer p {
     display: inline;
+    font-weight: lighter;
 }
 
 footer h5 {
     text-align: center;
     text-transform: uppercase;
+    font-weight: lighter;
+    letter-spacing: 1px;
 }
 
 
