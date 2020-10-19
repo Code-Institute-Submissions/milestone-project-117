@@ -1,4 +1,8 @@
 
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
 h2 {
     letter-spacing: 2px;
 }
@@ -147,34 +151,26 @@ section h3 {
 
 .section-txt-area {
     position: absolute;
-    width: 60%;
+    width: 80%;
     height: 20%;
     background-color: white;
     z-index: 10;
     border-radius: 10%;
-    left: 20%;
-    right: 20%;
+    left: 10%;
+    right: 10%;
     opacity: 1.0;
     
 }
 
-.section-txt-area:hover {
-    width: 80%;
-    height: 30%;
-    left: 10%;
-    right: 10%;
-    
-}
+
 
 .section-txt-area-one {
    
-    top: 10%;
+    top: 15%;
     
 }
 
-.section-txt-area-one:hover {
-    top: 7%;
-}
+
 
 .section-txt-area-two {
 
@@ -182,21 +178,15 @@ section h3 {
 
 }
 
-.section-txt-area-two:hover {
-  
-  top: 33%;
 
-}
 
 .section-txt-area-three {
     
-    bottom: 10%;
+    bottom: 15%;
    
 }
 
-.section-txt-area-three:hover {
-    bottom: 7%;
-}
+
 
 /* I used the help from user "Andrew" in this post "https://stackoverflow.com/questions/7720730/how-to-align-absolutely-positioned-element-to-center" to center align the button" */
 
