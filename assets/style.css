@@ -103,7 +103,19 @@ footer h5 {
 
 .contact-icon {
     margin-right: 5px;
-    margin-left: 40px;
+    margin-left: 20px;
+}
+
+.contact-icon-modal {
+    margin-right: 5px;
+    margin-top: 15px;
+    margin-left: 20%;
+}
+
+.modal-btn {
+
+    margin-top: 40px;
+    margin-bottom: 15px;
 }
 
 
