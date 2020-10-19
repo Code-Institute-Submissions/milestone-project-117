@@ -75,6 +75,8 @@ footer {
     padding-top: 15px;
     padding-bottom: 10px;
     background-color: #f8f9fa;
+    margin-bottom: 20px;
+    color: darkgrey;
 }
 
 
@@ -99,6 +101,7 @@ footer h5 {
     text-transform: uppercase;
     font-weight: lighter;
     letter-spacing: 1px;
+    margin-bottom: 30px;
 }
 
 .contact-icon {
@@ -117,6 +120,8 @@ footer h5 {
     margin-top: 40px;
     margin-bottom: 15px;
 }
+
+
 
 
 
