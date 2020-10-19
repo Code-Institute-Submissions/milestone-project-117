@@ -7,9 +7,7 @@ h2 {
     letter-spacing: 2px;
 }
 
-.blue-shadow {
-    text-shadow: 1px 1px 2px lightskyblue;
-}
+
 
 .align-center {
     text-align: center;
@@ -71,6 +69,10 @@ h2 {
 .navigation-link:hover {
     color: lightgreen;
     text-decoration: underline;
+}
+
+header h2 {
+    text-shadow: 1px 1px 2px lightskyblue;
 }
 
 /* footer */
