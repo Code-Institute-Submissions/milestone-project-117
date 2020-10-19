@@ -1,12 +1,151 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-</head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Train At Fitness Center!</title>
+    <!-- google fonts stylesheet -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <!-- hover.css stylesheet -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css" integrity="sha512-csw0Ma4oXCAgd/d4nTcpoEoz4nYvvnk21a8VA2h2dzhPAvjbUIK6V3si7/g/HehwdunqqW18RwCJKpD7rL67Xg==" crossorigin="anonymous" />
+    <!-- bootstrap stylesheet -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+    <!-- fontawsome script -->
+    <script
+      src="https://kit.fontawesome.com/30b290cadc.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="assets/style.css" />
+  </head>
 <body>
+ <header>
+      <!-- the nav element and the nested elements/classes are from bootstrap -->
+      <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand uppercase" href="index.html"
+          ><h2 class="light-green blue-shadow">Fitness center</h2></a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link" href="index.html"
+              ><span class="navigation-link">Home</span>
+              <span class="sr-only">(current)</span></a
+            >
+            <a class="nav-link" href="gallery.html"
+              ><span class="navigation-link">Pictures</span></a
+            >
+            <a class="nav-link" href="signup.html">
+              <span class="navigation-link">Become a member</span></a
+            >
+          </div>
+        </div>
+      </nav>
+    </header>
+    <section></section>
+    
+    <!-- container,row,col and d-lg-none classes are from bootstrap -->
+    <footer class="container-fluid">
+      <div class="row">
+        <div class="col-12 col-md-4 d-lg-none align-center">
+          
+          
+           <br>
+            <!-- bootstrap button -->
+            <button
+              type="button"
+              class="btn btn-primary green-btn" 
+              data-toggle="modal"
+              data-target="#exampleModal"
+            >
+              Contact
+            </button>
+          
+
+          <!-- bootstrap modal -->
+          <div
+            class="modal fade"
+            id="exampleModal"
+            tabindex="-1"
+            aria-labelledby="exampleModalLabel"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog">
+              <div class="modal-content">
+              
+                <div>
+                  <h5>Contact</h5>
+                  <!-- i element classes (icons) are from fontawsome -->
+                  <i class="fas fa-phone-square contact-icon-modal"></i>
+                  <p><b>0774557724</b></p>
+                  <br/><i class="fas fa-search-location contact-icon-modal"></i>
+                  <p><b>Big Street 45 Stockholm</b></p>
+                  <br/><i class="fas fa-envelope-square contact-icon-modal"></i>
+                  <p><b>fitnesscenter@gmail.com</b></p>
+                 
+                  <div class="align-center">
+
+                   <!-- bootstrap button -->
+                    <button
+                      type="button"
+                      class="btn btn-secondary modal-btn"
+                      data-dismiss="modal"
+                    >
+                      Close
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+       
+        
+          <!-- col and d-lg-block classes are from bootstrap -->
+          <div class="col-8 d-none d-lg-block no-padding">
+            <h5>Contact</h5>
+            <!-- i element classes (icons) are from fontawsome -->
+            <i class="fas fa-phone-square contact-icon"></i>
+            <p><b>0774557724</b></p>
+
+            <i class="fas fa-envelope-square contact-icon"></i>
+            <p><b>fitnesscenter@gmail.com</b></p>
+
+            <i class="fas fa-search-location contact-icon"></i>
+            <p><b>Big Street 45 Stockholm</b></p>
+          
+            
+          
+          </div>
+          <!-- col and offset classes are from bootstrap -->
+          <div class="col-12 col-md-4 offset-md-4 offset-lg-0 align-center">
+             <!--d-md-none is a bootstrap class  -->
+        <span class="d-md-none"><hr /></span>
+            <h5>Social media</h5>
+            <!-- i element classes are from fontawsome, hvr classes are from hover.css  -->
+            <a href="https://www.facebook.com/" target="_blank" class="hvr-icon-grow"><i class="fab fa-facebook-square hvr-icon"></i></a>
+            <a href="https://www.instagram.com/" target="_blank" class="hvr-icon-grow"><i class="fab fa-instagram-square hvr-icon"></i></a
+            ><a href="https://twitter.com/" target="_blank" class="hvr-icon-grow"><i class="fab fa-twitter-square hvr-icon"></i></a>
+          </div>
+        
+      
+      </div>
+    </footer>
+<!-- bootstrap scripts -->
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>    
