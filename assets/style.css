@@ -26,7 +26,7 @@ h2 {
 .blue-btn {
     background-color: lightskyblue;
     margin: 10px;
-    border: none;
+    border: none; 
 }
 
 .blue-btn:hover {
@@ -127,6 +127,12 @@ footer h5 {
 
 
 /* section index.html */
+
+section li {
+    list-style-position: inside;
+    margin-left: 30%;
+    margin-bottom: 15px;
+}
 
 section h2 {
     text-align: center;
