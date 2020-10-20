@@ -27,7 +27,8 @@ h2 {
 
 .blue-btn {
     background-color: lightskyblue;
-    margin: 10px;
+    margin-top: 70px;
+    margin-bottom: 40px;
     border: none; 
 }
 
@@ -81,7 +82,6 @@ footer {
     padding-top: 15px;
     padding-bottom: 10px;
     background-color: #f8f9fa;
-    margin-bottom: 20px;
     color: darkgrey;
 }
 
@@ -140,7 +140,6 @@ section p {
 
 section li {
     list-style-position: inside;
-    margin-left: 30%;
     margin-bottom: 15px;
 }
 
@@ -148,6 +147,7 @@ section h2 {
     text-align: center;
     margin: 40px;
     text-transform: uppercase;
+    font-size: 150%;
 }
 
 section h3 {
@@ -189,9 +189,11 @@ section h3 {
     height: 27%;
     background-color: white;
     z-index: 10;
-    border-radius: 10%;
-    left: 10%;
-    right: 10%;
+    border-radius: 20px;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
     opacity: 1.0;
     
 }
@@ -226,31 +228,15 @@ section h3 {
 
 
 
-/* I used the help from user "Andrew" in this post "https://stackoverflow.com/questions/7720730/how-to-align-absolutely-positioned-element-to-center" to center align the button" */
-
-section .blue-btn {
-    position: absolute;
-    left: 0;
-    right: 0;
-    margin-left: auto;
-    margin-right: auto;
-    bottom: 2%;
-    width: 250px;
-    display: block;
-    z-index: 10;
-
-    
-    
-}
 
 #pos-relative {
     position: relative;
     margin-bottom: 15px;
 }
 
-.align-center .blue-btn {
+.btn-mrg  {
+    margin-bottom: 40px;
     margin-top: 70px;
-    margin-bottom: 30px;
 }
 
 /* section gallery.html */
@@ -338,5 +324,26 @@ section .blue-btn {
 
 
 }
+
+@media screen and (max-width: 767.5px) {
+
+   
+        /* I used the help from user "Andrew" in this post "https://stackoverflow.com/questions/7720730/how-to-align-absolutely-positioned-element-to-center" to center align the button" */
+
+section .blue-btn {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    bottom: 20px;
+    width: 250px;
+    display: block;
+    z-index: 10;
+    
+}
+
+    
+    }
 
 
