@@ -7,17 +7,6 @@ h2 {
     letter-spacing: 2px;
 }
 
-.float-right {
-    float: right;
-}
-
-.float-left {
-    float: left;
-}
-
-.d-inline {
-    display: inline;
-}
 
 .align-center {
     text-align: center;
@@ -35,8 +24,8 @@ h2 {
     padding: 0;
 }
 
-.blue-btn {
-    background-color: lightskyblue;
+.grey-btn {
+    background-color: #56615a;
     margin-top: 70px;
     margin-bottom: 40px;
     border: none; 
