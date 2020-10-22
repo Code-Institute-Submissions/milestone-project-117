@@ -203,7 +203,22 @@ section h3 {
     margin-top: 100px;
 }
 
+/*section signup.html */
+
+.bg-img-two {
+    background-image: url("images/dumbellsopacity");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: black;  
+    height: 100%;
+    width: 100%;
 
 
+}
+
+.form-area {
+    background-color: white;
+}
 
 
