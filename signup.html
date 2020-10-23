@@ -56,11 +56,31 @@
         </div>
       </nav> 
     </header>
-    <section class="container-fluid"> <div class="row"><div class="col bg-img-two"><div class="row"><div class="col-10 offset-1 col-md-8 offset-md-2 col-lg-6 offset-lg-3 form-area"><form>
-  <label for="name">Name:</label><br>
-  <input type="text" id="name" name="name"><br>
-  <label for="address">Address:</label><br>
-  <input type="text" id="address" name="address">
+    <section class="container-fluid"> <div class="row"><div class="col bg-img-two"><div class="row"><div class="col-10 offset-1 col-md-8 offset-md-2 col-lg-6 offset-lg-3 form-area">
+    <h3>Sign Up Today!</h3>
+    <p class="p-mg-btm">Fill out and submit this form to become a member</p>
+    
+    <form>
+   
+   <div class="row">
+  <div class="col-12 col-md-4 offset-md-0 form-item"><label for="name">Name:</label></div>
+  <div class="col-12 col-md-8 offset-md-0 form-item"><input type="text" id="name" name="name" required></div>
+
+<div class="col-12 col-md-4 offset-md-0 form-item"><label for="address">Address:</label></div>
+  <div class="col-12 col-md-8 offset-md-0 form-item"><input type="text" id="address" name="address" required></div>
+  
+  <div class="col-12 col-md-4 offset-md-0 form-item"><label for="phone">Phone Number:</label></div>
+ <div class="col-12 col-md-8 offset-md-0  form-item"> <input type="tel" id="phone" name="phone" required> </div>
+
+<div class="col-12 col-md-4 offset-md-0 form-item"><label for="email">Email:</label> </div>
+  <div class="col-12 col-md-8 offset-md-0 form-item"><input type="email" id="email" name="email"> </div>
+
+ 
+<div class="col-12 col-md-6 offset-md-3 form-item check-b "><label for="agree"> I Agree To The Terms And Conditions</label></div>
+  <div class="col-12 col-md-3 form-item check-b "><input type="checkbox" id="agree" name="agree" value="agree"></div>
+ <div class="mg-auto"><input type="submit" value="Sign Up Now!" class="btn btn-secondary sub-btn"></div>
+  </div>
+
 </form>
 </div></div></div></div> </section>
     <!-- container,row,col and d-lg-none classes are from bootstrap -->
