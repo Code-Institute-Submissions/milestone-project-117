@@ -113,6 +113,10 @@ footer h5 {
     margin-bottom: 20px;
 }
 
+.footer-h5 {
+    padding-top: 25px;
+}
+
 .contact-icon {
     margin-right: 5px;
     margin-left: 20px;
@@ -196,6 +200,7 @@ section h3 {
     height: 25%;
     background-color: white;
     border-radius: 20px;
+    box-shadow: 5px 5px 10px black;
     
 }
 
@@ -244,6 +249,7 @@ section h3 {
     padding-top: 40px;
     padding-bottom: 40px;
     border-radius: 15px;
+    box-shadow: 5px 5px 10px black;
     
 }
 
