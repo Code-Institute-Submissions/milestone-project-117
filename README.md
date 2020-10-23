@@ -1,22 +1,22 @@
-* Milestone Project 1
+# Milestone Project 1
 
-** UX
-
-
-** Features
-
-*** Existing Features
-*** Future Features
+## UX
 
 
-** Technologies Used
+## Features
 
-** Testing
+### Existing Features
+### Future Features
 
-** Deployment
 
-** Credits 
+## Technologies Used
 
-*** Content
-*** Media
-*** Acknowledgements
+## Testing
+
+## Deployment
+
+## Credits 
+
+### Content
+### Media
+### Acknowledgements
