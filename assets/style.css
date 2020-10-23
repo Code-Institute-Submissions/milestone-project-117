@@ -84,7 +84,7 @@ footer {
     color: darkgrey;
     /*position: -webkit-sticky; 
     position: sticky;*/
-    bottom: 0px;
+    
 }
 
 
@@ -203,10 +203,26 @@ section h3 {
     margin-top: 100px;
 }
 
+/*section gallery.html */
+
+.col-gall {
+    margin: 0;
+    padding: 0;
+}
+
+
+.gall-img {
+    height: 100%;
+    width: 100%;
+    padding: 5px;
+}
+
+
+
 /*section signup.html */
 
 .bg-img-two {
-    background-image: url("images/dumbellsopacity");
+    background-image: url("images/dumbellsopacity.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -219,6 +235,20 @@ section h3 {
 
 .form-area {
     background-color: white;
+    width: 100%;
+    margin-top: 100px;
+    margin-bottom: 40px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    border-radius: 15px;
+    
 }
 
 
+/* media quieries */
+
+@media screen and (max-width: 407.5px) {
+    h2 {
+        font-size: 1.2rem;
+    }
+}
