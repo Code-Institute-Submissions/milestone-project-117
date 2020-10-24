@@ -24,7 +24,7 @@
   </head>
   <body>
     <header>
-      <!-- the nav element and the nested elements/classes are from bootstrap -->
+      <!-- the navbar with the nested elements/classes are from bootstrap -->
       <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
         <a class="navbar-brand uppercase" href="index.html"
           ><h2 class="cus-h2 light-green">Fitness center</h2></a
@@ -41,6 +41,7 @@
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          
           <div class="navbar-nav ml-auto">
             <a class="nav-link" href="index.html"
               ><span class="navigation-link">Home</span>
@@ -50,7 +51,7 @@
               ><span class="navigation-link">Pictures</span></a
             >
             <a class="nav-link" href="signup.html">
-              <span class="navigation-link">Become a member</span></a
+              <span class="navigation-link">Sign Up</span></a
             >
           </div>
         </div>
@@ -60,10 +61,10 @@
       <div class="row">
         <div class="col d-md-none no-padding bg-im-index">
           <div class="row">
-          <div class="col-8 offset-2 section-txt-area section-txt-area-one" id="top-sec-marg"><h3>Who are we?</h3><p>We are a newly opened gym in central Stockholm, our focus is
+          <div class="col-8 offset-2 section-txt-area section-txt-area-one" id="top-sec-mrg"><h3 class="sec-h3">Who are we?</h3><p>We are a newly opened gym in central Stockholm, our focus is
                 to make training and exercise availible for everyone. With a wide variatey of equipment and very helpful staff we wish to make your experiance as fun productive.</p></div>
-          <div class="col-8 offset-2  section-txt-area section-txt-area-two"><h3>Our facilities</h3><p>We have a all the tools you will need to maximise your trainin results, from cardio machines, strenght training machines to dumbells and barbells. All of our machines and equipment are quality made and properly maintained. We also have a sauna and, of course, clean and fresh locker rooms and toilets </p></div>
-          <div class="col-8 offset-2 section-txt-area section-txt-area-three"><h3>What do we offer?</h3><ul><li>Monthly and yearly prescription</li><li>Personal trainers</li><li>Group training</li></ul></div>
+          <div class="col-8 offset-2  section-txt-area section-txt-area-two"><h3 class="sec-h3">Our facilities</h3><p>We have a all the tools you will need to maximise your trainin results, from cardio machines, strenght training machines to dumbells and barbells. All of our machines and equipment are quality made and properly maintained. We also have a sauna and, of course, clean and fresh locker rooms and toilets </p></div>
+          <div class="col-8 offset-2 section-txt-area section-txt-area-three"><h3 class="sec-h3">What do we offer?</h3><ul><li>Monthly and yearly prescription</li><li>Personal trainers</li><li>Group training</li></ul></div>
           <div class="col-8 offset-2 align-center"><a class="btn btn-primary grey-btn"  href="signup.html" role="button"
             >Become a member today!</a
           ></div>
@@ -76,10 +77,10 @@
               <div class="col-10 d-none d-md-block offset-md-1">
               <div class="container">
               <div class="row">
-                <div class="col-md-6 col-lg-4 col-no-pad"><h2>Who are we?</h2><p>We are a newly opened gym in central Stockholm, our focus is
-                to make training and exercise availible for everyone. With a wide variatey of equipment and very helpful staff we wish to make your experiance as fun productive.</p></div>
-                <div class="col-md-6 col-lg-4 col-no-pad"><h2>Our facilities</h2><p>We have a all the tools you will need to maximise your trainin results, from cardio machines, strenght training machines to dumbells and barbells. All of our machines and equipment are quality made and properly maintained. We also have a sauna and, of course, clean and fresh locker rooms and toilets </p></div>
-                <div class="col-md-6 offset-md-3 col-lg-4 offset-lg-0 col-no-pad"><h2>What do we offer?</h2><ul><li>Monthly and yearly prescription</li><li>Personal trainers</li><li>Group training</li></ul></div>
+                <div class="col-md-6 col-lg-4 col-no-pad"><h2 class="sec-h2">Who are we?</h2><p class="sec-p">We are a newly opened gym in central Stockholm, our focus is
+                to make training and exercise availible for everyone. With a wide variatey of equipment and very helpful staff we wish to make your experience as fun productive.</p></div>
+                <div class="col-md-6 col-lg-4 col-no-pad"><h2 class="sec-h2">Our facilities</h2><p class="sec-p">We have a all the tools you will need to maximise your trainin results, from cardio machines, strenght training machines to dumbells and barbells. All of our machines and equipment are quality made and properly maintained. We also have a sauna and, of course, clean and fresh locker rooms and toilets </p></div>
+                <div class="col-md-6 offset-md-3 col-lg-4 offset-lg-0 col-no-pad"><h2 class="sec-h2">What do we offer?</h2><ul><li class="sec-li">Monthly and yearly prescription</li><li class="sec-li">Personal trainers</li><li class="sec-li">Group training</li></ul></div>
               </div>
               </div>
               </div>
@@ -101,8 +102,9 @@
     <!-- container,row,col and d-lg-none classes are from bootstrap -->
     <footer class="container-fluid footer-bg">
       <div class="row">
-        <div class="col-12 col-md-4 d-lg-none align-center">
+        <div class="col-12 col-md-4 d-lg-none">
        
+            <div class="align-center">
             <!-- bootstrap button -->
             <button
               type="button"
@@ -112,6 +114,7 @@
             >
               Contact
             </button>
+            </div>
           
 
           <!-- bootstrap modal -->
@@ -125,16 +128,19 @@
             <div class="modal-dialog">
               <div class="modal-content">
               
-                <div>
-                  <h5>Contact</h5>
+                
+                  <h5 class="modal-h5">Contact</h5>
                   <!-- i element classes (icons) are from fontawsome -->
-                  <div class="align-left">
-                  <i class="fas fa-phone-square contact-icon contact-icon-modal"></i>
-                  <p><b>0774557724</b></p>
-                  <br/><i class="fas fa-search-location contact-icon contact-icon-modal"></i>
-                  <p><b>Big Street 45 Stockholm</b></p>
-                  <br/><i class="fas fa-envelope-square contact-icon contact-icon-modal"></i>
-                  <p><b>fitnesscenter@gmail.com</b></p>
+                  <div class="row">
+                  <div class="col-12"> <i class="fas fa-phone-square footer-icon contact-icon contact-icon-modal"></i>
+                  <span>0774557724</span></div>
+
+                  
+
+                 <div class="col-12"> <i class="fas fa-search-location footer-icon contact-icon contact-icon-modal"></i>
+                  <span>Big Street 45 Stockholm</span></div>
+                  <div class="col-12"><i class="fas fa-envelope-square footer-icon contact-icon contact-icon-modal"></i>
+                  <span>fitnesscenter@gmail.com</span></div>
                   </div>
                  
                   <div class="align-center">
@@ -148,7 +154,7 @@
                       Close
                     </button>
                   </div>
-                </div>
+                
               </div>
             </div>
           </div>

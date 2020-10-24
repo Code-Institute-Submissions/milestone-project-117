@@ -26,7 +26,7 @@
   </head>
 <body>
  <header>
-      <!-- the nav element and the nested elements/classes are from bootstrap -->
+      <!-- the navbar with the nested elements/classes are from bootstrap -->
       <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
         <a class="navbar-brand uppercase" href="index.html"
           ><h2 class="cus-h2 light-green">Fitness center</h2></a
@@ -43,23 +43,24 @@
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          
           <div class="navbar-nav ml-auto">
             <a class="nav-link" href="index.html"
               ><span class="navigation-link">Home</span>
-              <span class="sr-only">(current)</span></a
+              </a
             >
             <a class="nav-link" href="gallery.html"
               ><span class="navigation-link">Pictures</span></a
             >
             <a class="nav-link" href="signup.html">
-              <span class="navigation-link">Become a member</span></a
+              <span class="navigation-link">Sign Up</span></a
             >
           </div>
         </div>
-      </nav>
+      </nav> 
     </header>
     <section class="container-fluid"><div class="row">
-    <div class="col-12 col-md-6 col-lg-4 col-gall"><img class="gall-img" src="assets/images/treadmill.jpg" alt="guy on treadmill"></div>
+    <div class="col-12 col-md-6 col-lg-4 col-gall" id="top-gall-mrg"><img class="gall-img" src="assets/images/treadmill.jpg" alt="guy on treadmill"></div>
     <div class="col-12 col-md-6 col-lg-4 col-gall"><img class="gall-img" src="assets/images/dumbells.jpg" alt="dumbells in rack"></div>
     <div class="col-12 col-md-6 col-lg-4 col-gall"><img class="gall-img" src="assets/images/girl-on-bench.jpg" alt="guy on treadmill"></div>
     <div class="col-12 col-md-6 col-lg-4 col-gall"><img class="gall-img" src="assets/images/kettelbells.jpg" alt="kettelbells"></div>
@@ -67,13 +68,13 @@
     <div class="col-12 col-md-6 col-lg-4 col-gall"><img class="gall-img" src="assets/images/rower.jpg" alt="rower"></div>
     </div></section>
     
-    <!-- container,row,col and d-lg-none classes are from bootstrap -->
-    <footer class="container-fluid">
+    
+     <!-- container,row,col and d-lg-none classes are from bootstrap -->
+    <footer class="container-fluid footer-bg">
       <div class="row">
-        <div class="col-12 col-md-4 d-lg-none align-center">
-          
-          
-           <br>
+        <div class="col-12 col-md-4 d-lg-none">
+       
+            <div class="align-center">
             <!-- bootstrap button -->
             <button
               type="button"
@@ -83,6 +84,7 @@
             >
               Contact
             </button>
+            </div>
           
 
           <!-- bootstrap modal -->
@@ -96,17 +98,21 @@
             <div class="modal-dialog">
               <div class="modal-content">
               
-                <div>
-                  <h5>Contact</h5>
+                
+                  <h5 class="modal-h5">Contact</h5>
                   <!-- i element classes (icons) are from fontawsome -->
-                  <div class="align-left">
-                  <i class="fas fa-phone-square contact-icon-modal"></i>
-                  <p><b>0774557724</b></p>
-                  <br/><i class="fas fa-search-location contact-icon-modal"></i>
-                  <p><b>Big Street 45 Stockholm</b></p>
-                  <br/><i class="fas fa-envelope-square contact-icon-modal"></i>
-                  <p><b>fitnesscenter@gmail.com</b></p>
+                  <div class="row">
+                  <div class="col-12"> <i class="fas fa-phone-square footer-icon contact-icon contact-icon-modal"></i>
+                  <span>0774557724</span></div>
+
+                  
+
+                 <div class="col-12"> <i class="fas fa-search-location footer-icon contact-icon contact-icon-modal"></i>
+                  <span>Big Street 45 Stockholm</span></div>
+                  <div class="col-12"><i class="fas fa-envelope-square footer-icon contact-icon contact-icon-modal"></i>
+                  <span>fitnesscenter@gmail.com</span></div>
                   </div>
+                 
                   <div class="align-center">
 
                    <!-- bootstrap button -->
@@ -118,7 +124,7 @@
                       Close
                     </button>
                   </div>
-                </div>
+                
               </div>
             </div>
           </div>
@@ -126,30 +132,44 @@
        
         
           <!-- col and d-lg-block classes are from bootstrap -->
-          <div class="col-8 d-none d-lg-block no-padding">
+          <div class="col-8 d-none d-lg-block">
+            
+            
             
             <!-- i element classes (icons) are from fontawsome -->
-            <i class="fas fa-phone-square contact-icon"></i>
-            <p><b>0774557724</b></p>
+            
+            
+            <i class="fas fa-phone-square contact-icon footer-icon"><span class="sr-only">Phone icon</span></i>
+            <span class="footer-text">0774557724</span>
+            
 
-            <i class="fas fa-envelope-square contact-icon"></i>
-            <p><b>fitnesscenter@gmail.com</b></p>
+            
+            
+            <i class="fas fa-envelope-square contact-icon footer-icon"><span class="sr-only">Email icon</span></i>
+            <span class="footer-text">fitnesscenter@gmail.com</span>
+            
 
-            <i class="fas fa-search-location contact-icon"></i>
-            <p><b>Big Street 45 Stockholm</b></p>
+            
+            
+            <i class="fas fa-search-location contact-icon footer-icon "><span class="sr-only">Location icon</span></i>
+            <span class="footer-text">Big Street 45 Stockholm</span>
+            
+
+            </div>
           
             
           
-          </div>
+          
           <!-- col and offset classes are from bootstrap -->
-          <div class="col-12 col-md-4 offset-md-4 offset-lg-0 align-center">
-           
+          <div class="col-12 col-md-6 offset-md-2 col-lg-4 offset-lg-0 ft-icon-wrap">
+             <!--d-md-none is a bootstrap class  -->
         
            
+            
             <!-- i element classes are from fontawsome, hvr classes are from hover.css  -->
-            <a href="https://www.facebook.com/" target="_blank" class="hvr-icon-grow"><i class="fab fa-facebook-square hvr-icon"></i></a>
-            <a href="https://www.instagram.com/" target="_blank" class="hvr-icon-grow"><i class="fab fa-instagram-square hvr-icon"></i></a
-            ><a href="https://twitter.com/" target="_blank" class="hvr-icon-grow"><i class="fab fa-twitter-square hvr-icon"></i></a>
+            <a href="https://www.facebook.com/" target="_blank" class="hvr-icon-grow"><i class="fab fa-facebook-square hvr-icon footer-icon"><span class="sr-only">Facebook icon/link</span></i></a>
+            <a href="https://www.instagram.com/" target="_blank" class="hvr-icon-grow"><i class="fab fa-instagram-square hvr-icon footer-icon "><span class="sr-only">Instagram icon/link</span></i></a
+            ><a href="https://twitter.com/" target="_blank" class="hvr-icon-grow"><i class="fab fa-twitter-square hvr-icon footer-icon "><span class="sr-only">Twitter icon/link</span></i></a>
           </div>
         
       

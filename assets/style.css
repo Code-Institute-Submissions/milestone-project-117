@@ -92,8 +92,6 @@ header .cus-h2 {
 }
 
 
-
-
 .footer-icon {
 
     margin-left: 30px;
@@ -118,7 +116,7 @@ header .cus-h2 {
 .contact-icon-modal {
     margin-right: 5px;
     margin-top: 15px;
-    margin-left: 20%;
+    margin-left: 10px;
 }
 
 .modal-btn {
@@ -131,22 +129,38 @@ header .cus-h2 {
     text-align: center;
 }
 
+.modal-dialog {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 40px;
+    border-radius: 15px;
+    border: 1px black;
+
+}
+
+.modal-h5 {
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 20px;
+    color: black;
+    letter-spacing: 1px;
+}
 
 
 
 
 /* section index.html */
 
-section p {
+.sec-p {
     margin: 7px;
 }
 
-section li {
+.sec-li {
     list-style-position: inside;
     margin-bottom: 15px;
 }
 
-section h2 {
+.sec-h2 {
     text-align: center;
     margin-top: 40px;
     margin-bottom: 40px;
@@ -156,7 +170,7 @@ section h2 {
     font-size: 120%;
 }
 
-section h3 {
+.sec-h3 {
     text-align: center;
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -200,7 +214,7 @@ section h3 {
     
 }
 
-#top-sec-marg {
+#top-sec-mrg {
     margin-top: 100px;
 }
 
@@ -218,11 +232,21 @@ section h3 {
     padding: 5px;
 }
 
+#top-gall-mrg {
+    margin-top: 50px;
+}
 
 
 
 
 /*section signup.html */
+
+.form-h3 {
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
 
 .bg-img-two {
     background-image: url("images/dumbellsopacity.png");
@@ -245,7 +269,7 @@ section h3 {
     padding-top: 40px;
     padding-bottom: 40px;
     border-radius: 15px;
-    box-shadow: 5px 5px 10px black;
+    box-shadow: 5px 5px 10px darkgrey;
     
 }
 
@@ -281,14 +305,16 @@ section h3 {
 /* media quieries */
 
 @media screen and (max-width: 407.5px) {
-    h2 {
+    .cus-h2 {
         font-size: 1.2rem;
     }
 }
 
 @media screen and (max-width: 767px) {
     .form-item {
-    text-align: center; }
+    text-align: center; 
+    }
+
 }
 
 @media screen and (min-width: 767.5px) {
