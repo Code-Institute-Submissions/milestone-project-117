@@ -3,7 +3,7 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-h2 {
+.cus-h2 {
     letter-spacing: 2px;
 }
 
@@ -14,6 +14,10 @@ h2 {
 
 .align-left {
     text-align: left;
+}
+
+.align-right {
+    text-align: right;
 }
 
 .uppercase {
@@ -31,14 +35,15 @@ h2 {
     border: none; 
 }
 
-.blue-btn:hover {
-    background-color: blue;
+.grey-btn:hover {
+    background-color: black;
 }
 
 .green-btn {
 
     background-color: lightgreen;
     border: none;
+    margin-bottom: 30px;
 }
 
 
@@ -71,55 +76,43 @@ h2 {
     text-decoration: underline;
 }
 
-header h2 {
+header .cus-h2 {
     text-shadow: 1px 1px 2px lightskyblue;
 }
 
 /* footer */
 
-footer {
+.footer-bg {
     padding-top: 15px;
     padding-bottom: 10px;
     background-color: #f8f9fa;
     color: darkgrey;
-    /*position: -webkit-sticky; 
-    position: sticky;*/
+    
     
 }
 
 
 
 
-footer i {
+.footer-icon {
 
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
     margin-top: 10px;
     font-size: 200%;
     color: lightgreen;
 
 }
 
-footer p {
-    display: inline;
+.footer-text {
     font-weight: lighter;
+    margin-right: 20px;
 }
 
-footer h5 {
-    text-align: center;
-    text-transform: uppercase;
-    font-weight: lighter;
-    letter-spacing: 1px;
-    margin-bottom: 20px;
-}
-
-.footer-h5 {
-    padding-top: 25px;
-}
 
 .contact-icon {
     margin-right: 5px;
-    margin-left: 20px;
+    margin-left: 30px;
 }
 
 .contact-icon-modal {
@@ -134,6 +127,9 @@ footer h5 {
     margin-bottom: 15px;
 }
 
+.ft-icon-wrap {
+    text-align: center;
+}
 
 
 
@@ -293,4 +289,16 @@ section h3 {
 @media screen and (max-width: 767px) {
     .form-item {
     text-align: center; }
+}
+
+@media screen and (min-width: 767.5px) {
+    .ft-icon-wrap {
+        text-align: right;
+    }
+
+    .green-btn {
+        margin-bottom: 0;
+    }
+
+   
 }
