@@ -134,7 +134,7 @@ header .cus-h2 {
     margin: 0 auto;
     margin-top: 40px;
     border-radius: 15px;
-    border: 1px black;
+    border: 2px black;
 
 }
 
@@ -210,7 +210,7 @@ header .cus-h2 {
     height: 25%;
     background-color: white;
     border-radius: 20px;
-    box-shadow: 5px 5px 10px black;
+    box-shadow: 5px 5px 10px darkgrey;
     
 }
 
@@ -300,6 +300,9 @@ header .cus-h2 {
     margin: 0 auto;
 }
 
+.mg-check {
+    margin-left: 10px;
+}
 
 
 /* media quieries */
