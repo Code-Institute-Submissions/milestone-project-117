@@ -18,8 +18,11 @@ The project is intented to recruit members to a (fictional) gym.
 #### Wireframes and Mockups
 
 
+     
 
-<![wireframe-mobile](assets/images/wireframe-mobile-test.jpg)>
+<img src="assets/images/wireframe-mobile-test.jpg"
+     alt="wireframe mobile"
+     style="height: 50px; width: 100px;" />
 
 
 
