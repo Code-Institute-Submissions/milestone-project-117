@@ -23,12 +23,32 @@ The project is intented to recruit members to a (fictional) gym.
 
 ## Technologies Used
 
+Outside of the genral HTML and CSS the greatest use was of the Bootstrap framework/library. Bootstrap was used to make the elements in the pages responsive with their container, row and col classes.
+It was also used for buttons, navbars and modals throughout the project which both saved time and provided functionality which would have otherwise required the use of JavaScript.
+
+
+
 ## Testing
 
+Chrome Developer Tool was used throughout the project to check the responsiveness of the pages. The project was also run across different webbrowsers such as Chrome,
+Internet Explorer and Microsoft Edge to make sure it looked the way it was intented.
+
+The CSS code was run through the WC3 CSS Validator (https://jigsaw.w3.org/css-validator/) without any issues.
+
+The HTML code was run through the WC3 Markup Validator (https://validator.w3.org/) without any issues.
+
+
 ## Deployment
+
+The project was deployed on Github Pages by choosing the masterbranch in the settings page within the repository.
+
+Link to the repository: https://github.com/davidlidebrandt/milestone-project-1
+Link to the deployed project: https://davidlidebrandt.github.io/milestone-project-1/
 
 ## Credits 
 
 ### Content
+
 ### Media
+
 ### Acknowledgements

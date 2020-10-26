@@ -32,7 +32,12 @@ body {
     background-color: #56615a;
     margin-top: 70px;
     margin-bottom: 40px;
-    border: none; 
+    border: none;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+    transition: 1s; 
 }
 
 .grey-btn:hover {
@@ -44,6 +49,11 @@ body {
     background-color: lightgreen;
     border: none;
     margin-bottom: 30px;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+    transition: 1s; 
 }
 
 
@@ -280,6 +290,7 @@ header .cus-h2 {
     
 }
 
+
 .p-mg-btm { 
 
     margin-bottom: 25px;
@@ -295,7 +306,17 @@ header .cus-h2 {
     color: white;
     background-color: #56615a;
     margin-top: 15px;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+    transition: 1s; 
 }
+
+.sub-btn:hover {
+    background-color: black;
+}
+
 
 .mg-auto {
     margin: 0 auto;
@@ -321,17 +342,22 @@ header .cus-h2 {
     }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 767.5px) {
     .form-item {
     text-align: center; 
     }
 
-}
+    
+
+
+   
+   }
 
 @media screen and (min-width: 767.5px) {
     .ft-icon-wrap {
         text-align: right;
     }
+
 
     .green-btn {
         margin-bottom: 0;
