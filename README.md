@@ -19,7 +19,7 @@ The project is intented to recruit members to a (fictional) gym.
 
 
 
-<![wireframe-mobile](assets/images/wireframe-mobile)>
+<![wireframe-mobile](assets/images/wireframe-mobile-test.jpg)>
 
 
 
