@@ -4,6 +4,24 @@ The project is intented to recruit members to a (fictional) gym.
 
 ## UX
 
+### User Stories
+
+* As a potential member I want easy access to information about what the gym offers.
+
+* As a potential member I want to see images from the gym to get a feel if it is the right choice.
+
+* As a potential member I want clear and simple instructions how to become a member.
+
+* As a potential member I want easy access to contact information.
+
+
+#### Wireframes and Mockups
+
+
+
+<![wireframe-mobile](assets/images/wireframe-mobile)>
+
+
 
 ## Features
 
@@ -82,7 +100,7 @@ Link to the deployed project: https://davidlidebrandt.github.io/milestone-projec
 
 ### Content
 
-None of the content was gathered from external sources
+None of the content was gathered from external sources.
 
 ### Media
 
