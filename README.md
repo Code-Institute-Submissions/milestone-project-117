@@ -9,7 +9,7 @@ The project is intented to recruit members to a (fictional) gym.
 
 ### Existing Features
 
-* An easily used navigation bar at the top  that looks the same across all three pages, with which the user can navigate between the pages.
+* An easily accesible navigation bar at the top  that looks the same across all three pages, with which the user can navigate between the pages.
 * A responsive gallery page where the user can scroll down and see images from the gym.
 * A sign up form where the user can enter their personal info and sign up for a membership. (At this moment the submit button does not actually submit any info).
 
@@ -23,9 +23,42 @@ The project is intented to recruit members to a (fictional) gym.
 
 ## Technologies Used
 
-Outside of the genral HTML and CSS the greatest use was of the Bootstrap framework/library. Bootstrap was used to make the elements in the pages responsive with their container, row and col classes.
-It was also used for buttons, navbars and modals throughout the project which both saved time and provided functionality which would have otherwise required the use of JavaScript.
+* HTML
 
+* CSS
+
+* Bootstrap  (https://getbootstrap.com/)
+
+Bootstrap was used to make the elements in the pages responsive with their container, row and col classes.
+It was also used for buttons, navbars and modals throughout the project, which both saved time and provided functionality which would have otherwise required the use of JavaScript.
+
+* Fontawsome (https://fontawesome.com/)
+
+Fontawsome was used to provide social media and contact icons.
+
+* Hover.css (https://cdnjs.com/libraries/hover.css)
+
+The hover.css library was used to provide hover effects to the social media icons.
+
+* Google Fonts (https://fonts.google.com/)
+
+Google fonts was used to import the "Roboto" font which was used throughout the project.
+
+* Github (https://github.com/)
+
+Github was used to store the repository and to deploy the project
+
+* Gitpod (https://www.gitpod.io/)
+
+Gitpod was the IDE used to create the project
+
+* Git 
+
+For version control through the gitpod terminal
+
+* Adobe XD  (https://www.adobe.com/products/xd.html)
+
+Adobe XD was used to create the wireframes and mockups for the project
 
 
 ## Testing
@@ -49,6 +82,10 @@ Link to the deployed project: https://davidlidebrandt.github.io/milestone-projec
 
 ### Content
 
+None of the content was gathered from external sources
+
 ### Media
+
+All of the images came from Pexels (https://www.pexels.com/royalty-free-images/)
 
 ### Acknowledgements
