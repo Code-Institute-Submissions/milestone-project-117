@@ -17,11 +17,15 @@ The project is intented to recruit members to a (fictional) gym.
 
 #### Wireframes and Mockups
 
+
 [Wireframe Mobile](assets/images/wireframe-mobile.jpg)
-     
+[Wireframe Tablet](assets/images/wireframe-tablet.jpg)
+[Wireframe Desktop](assets/images/wireframe-desktop.jpg)
+
+[Mockup Mobile](assets/images/mockup-mobile.jpg)
+[Mockup Tablet](assets/images/mockup-tablet.jpg)
+[Mockup Desktop](assets/images/mockup-desktop.jpg)
    
-
-
 
 ## Features
 
