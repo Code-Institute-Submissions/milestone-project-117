@@ -332,6 +332,12 @@ header .cus-h2 {
     font-size: x-large;
 }
 
+.cus-input {
+    width: 70%;
+    border-width: 2.5px;
+    border-radius: 10px;
+}
+
 
 /* media quieries */
 
