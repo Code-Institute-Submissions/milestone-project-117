@@ -17,12 +17,9 @@ The project is intented to recruit members to a (fictional) gym.
 
 #### Wireframes and Mockups
 
-
+[Wireframe Mobile](assets/images/wireframe-mobile.jpg)
      
-
-<img src="assets/images/wireframe-mobile-test.jpg"
-     alt="wireframe mobile"
-     style="height: 50px; width: 100px;" />
+   
 
 
 
@@ -48,28 +45,28 @@ The project is intented to recruit members to a (fictional) gym.
 
 * CSS
 
-* Bootstrap  (https://getbootstrap.com/)
+* [Bootstrap](https://getbootstrap.com/)
 
 Bootstrap was used to make the elements in the pages responsive with their container, row and col classes.
 It was also used for buttons, navbars and modals throughout the project, which both saved time and provided functionality which would have otherwise required the use of JavaScript.
 
-* Fontawsome (https://fontawesome.com/)
+* [Fontawsome](https://fontawesome.com/)
 
 Fontawsome was used to provide social media and contact icons.
 
-* Hover.css (https://cdnjs.com/libraries/hover.css)
+* [Hover.css](https://cdnjs.com/libraries/hover.css)
 
 The hover.css library was used to provide hover effects to the social media icons.
 
-* Google Fonts (https://fonts.google.com/)
+* [Google Fonts](https://fonts.google.com/)
 
 Google fonts was used to import the "Roboto" font which was used throughout the project.
 
-* Github (https://github.com/)
+* [Github](https://github.com/)
 
 Github was used to store the repository and to deploy the project
 
-* Gitpod (https://www.gitpod.io/)
+* [Gitpod](https://www.gitpod.io/)
 
 Gitpod was the IDE used to create the project
 
@@ -77,7 +74,7 @@ Gitpod was the IDE used to create the project
 
 For version control through the gitpod terminal
 
-* Adobe XD  (https://www.adobe.com/products/xd.html)
+* [Adobe XD](https://www.adobe.com/products/xd.html)
 
 Adobe XD was used to create the wireframes and mockups for the project
 
