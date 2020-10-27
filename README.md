@@ -1,8 +1,10 @@
 # Milestone Project 1
 
-The project is intented to recruit members to a (fictional) gym. 
+The project is intented to recruit members to a (fictional) gym my providing and easily navigated and responsive web page.
 
 ## UX
+
+The goal of the project is to create a responsive and easily navigated site that attracts new members to the gym and provides them with relevant information.
 
 ### User Stories
 
@@ -18,13 +20,13 @@ The project is intented to recruit members to a (fictional) gym.
 #### Wireframes and Mockups
 
 
-[Wireframe Mobile](assets/images/wireframe-mobile.jpg)
-[Wireframe Tablet](assets/images/wireframe-tablet.jpg)
-[Wireframe Desktop](assets/images/wireframe-desktop.jpg)
+* [Wireframe Mobile](assets/images/wireframe-mobile.jpg)
+* [Wireframe Tablet](assets/images/wireframe-tablet.jpg)
+* [Wireframe Desktop](assets/images/wireframe-desktop.jpg)
 
-[Mockup Mobile](assets/images/mockup-mobile.jpg)
-[Mockup Tablet](assets/images/mockup-tablet.jpg)
-[Mockup Desktop](assets/images/mockup-desktop.jpg)
+* [Mockup Mobile](assets/images/mockup-mobile.jpg)
+* [Mockup Tablet](assets/images/mockup-tablet.jpg)
+* [Mockup Desktop](assets/images/mockup-desktop.jpg)
    
 
 ## Features
@@ -52,7 +54,9 @@ The project is intented to recruit members to a (fictional) gym.
 * [Bootstrap](https://getbootstrap.com/)
 
 Bootstrap was used to make the elements in the pages responsive with their container, row and col classes.
-It was also used for buttons, navbars and modals throughout the project, which both saved time and provided functionality which would have otherwise required the use of JavaScript.
+It was also used for buttons, navbars and modals throughout the project, which both saved time and provided functionality which would have otherwise required the use of custom JavaScript.
+
+As part of the use of Bootstrap a few JavaScript libraries has been included (JQuery, Popper and Bootstraps own JavaScript library).
 
 * [Fontawsome](https://fontawesome.com/)
 
@@ -92,6 +96,23 @@ The CSS code was run through the WC3 CSS Validator (https://jigsaw.w3.org/css-va
 
 The HTML code was run through the WC3 Markup Validator (https://validator.w3.org/) without any issues.
 
+### User Stories
+
+* As a potential member I want easy access to information about what the gym offers.
+
+The genaral informationa about the gym is located on the index page and is responsive and easy to read on different screen sizes.
+
+* As a potential member I want to see images from the gym to get a feel if it is the right choice.
+
+The gallery page is easily accesible from the navbar across the pages, the images are the same size and looks well on different screen sizes.
+
+* As a potential member I want clear and simple instructions how to become a member.
+
+There is a link from the navbar aswell as a button located in the index page which leads to the signup page where clear instructions are given how to fill out the form and become a member.
+
+* As a potential member I want easy access to contact information.
+
+All of the contact information is located in the footer which looks the same across the pages. On large screen sizes the contact information is written out while on medium and small screen sizes there is a button to a modal that expands in front of the rest of the screen which makes it easier to read.
 
 ## Deployment
 
@@ -108,6 +129,10 @@ None of the content was gathered from external sources.
 
 ### Media
 
-All of the images came from Pexels (https://www.pexels.com/royalty-free-images/)
+All of the images came from [Pexels](https://www.pexels.com/royalty-free-images/)
 
 ### Acknowledgements
+
+https://nordicwellness.se/ For inspiration regarding the navigation bar and some general layout of the page.
+
+Thanks to my mentor and tutors for continuous support throughout the project.
