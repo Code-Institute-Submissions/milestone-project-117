@@ -2,6 +2,8 @@
 
 The project is intented to recruit members to a (fictional) gym my providing and easily navigated and responsive web page.
 
+[Link to the deployed project](https://davidlidebrandt.github.io/milestone-project-1/)
+
 ## UX
 
 The goal of the project is to create a responsive and easily navigated site that attracts new members to the gym and provides them with relevant information.
@@ -18,6 +20,9 @@ The goal of the project is to create a responsive and easily navigated site that
 
 
 #### Wireframes and Mockups
+
+A few notes on the changes I made from the mockups and wireframes. After consulting with my mentor at Code Institute I decided to change the navigation menu in the header.
+I took inspiration from a particular gym's website (see credits) and I also made a few other minor changes to the finsihed project.
 
 
 * [Wireframe Mobile](assets/images/wireframe-mobile.jpg)
