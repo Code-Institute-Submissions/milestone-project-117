@@ -341,6 +341,10 @@ body {
     border-radius: 10px;
 }
 
+.sp-text {
+    font-weight: bolder;
+}
+
 
 /* media quieries */
 

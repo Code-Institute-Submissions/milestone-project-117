@@ -1,6 +1,6 @@
 # Milestone Project 1
 
-The project is intented to recruit members to a (fictional) gym my providing and easily navigated and responsive web page.
+The project is intended to recruit members to a (fictional) gym by providing and easily navigated and responsive web page.
 
 [Link to the deployed project](https://davidlidebrandt.github.io/milestone-project-1/)
 
@@ -22,7 +22,7 @@ The goal of the project is to create a responsive and easily navigated site that
 #### Wireframes and Mockups
 
 A few notes on the changes I made from the mockups and wireframes. After consulting with my mentor at Code Institute I decided to change the navigation menu in the header.
-I took inspiration from a particular gym's website (see credits) and I also made a few other minor changes to the finsihed project.
+I took inspiration from a particular gym's website (see credits) and I also made a few other minor changes to the finished project.
 
 
 * [Wireframe Mobile](assets/images/wireframe-mobile.jpg)
@@ -38,7 +38,7 @@ I took inspiration from a particular gym's website (see credits) and I also made
 
 ### Existing Features
 
-* An easily accesible navigation bar at the top  that looks the same across all three pages, with which the user can navigate between the pages.
+* An easily accessible navigation bar at the top  that looks the same across all three pages, with which the user can navigate between the pages.
 * A responsive gallery page where the user can scroll down and see images from the gym.
 * A sign up form where the user can enter their personal info and sign up for a membership. (At this moment the submit button does not actually submit any info).
 
@@ -47,8 +47,8 @@ I took inspiration from a particular gym's website (see credits) and I also made
 
 * Increased functionality in the image gallery page to make it possible to enlarge and view pictures in a separate window.
 * Adding videos clips from the gym.
-* Adding functionalty that sends an email to the user to confirm their membership.
-
+* Adding functionality where a server receives and registers the submitted information from the form and then sends an email to the user to confirm their membership.
+* Adding functionality that requires the "Terms and Conditions" checkbox to be checked before the form can be submitted
 
 ## Technologies Used
 
@@ -94,8 +94,8 @@ Adobe XD was used to create the wireframes and mockups for the project
 
 ## Testing
 
-Chrome Developer Tool was used throughout the project to check the responsiveness of the pages. The project was also run across different webbrowsers such as Chrome,
-Internet Explorer and Microsoft Edge to make sure it looked the way it was intented.
+Chrome Developer Tool was used throughout the project to check the responsiveness of the pages. The project was also run across different web browsers such as Chrome,
+Internet Explorer and Microsoft Edge to make sure it looked the way it was intended.
 
 The CSS code was run through the WC3 CSS Validator (https://jigsaw.w3.org/css-validator/) without any issues.
 
@@ -105,15 +105,15 @@ The HTML code was run through the WC3 Markup Validator (https://validator.w3.org
 
 * As a potential member I want easy access to information about what the gym offers.
 
-The genaral informationa about the gym is located on the index page and is responsive and easy to read on different screen sizes.
+The general information about the gym is located on the index page and is responsive and easy to read on different screen sizes.
 
 * As a potential member I want to see images from the gym to get a feel if it is the right choice.
 
-The gallery page is easily accesible from the navbar across the pages, the images are the same size and looks well on different screen sizes.
+The gallery page is easily accessible from the navbar across the pages, the images are the same size and looks well on different screen sizes.
 
 * As a potential member I want clear and simple instructions how to become a member.
 
-There is a link from the navbar aswell as a button located in the index page which leads to the signup page where clear instructions are given how to fill out the form and become a member.
+There is a link from the navbar as well as a button located in the index page which leads to the signup page where clear instructions are given how to fill out the form and become a member.
 
 * As a potential member I want easy access to contact information.
 
@@ -121,7 +121,7 @@ All of the contact information is located in the footer which looks the same acr
 
 ## Deployment
 
-The project was deployed on Github Pages by choosing the masterbranch in the settings page within the repository.
+The project was deployed on Github Pages by choosing the master branch in the settings page within the repository.
 
 Link to the repository: https://github.com/davidlidebrandt/milestone-project-1
 Link to the deployed project: https://davidlidebrandt.github.io/milestone-project-1/
@@ -136,7 +136,7 @@ None of the content was gathered from external sources.
 
 All of the images came from [Pexels](https://www.pexels.com/royalty-free-images/)
 
-### Acknowledgements
+### Acknowledgments
 
 https://nordicwellness.se/ For inspiration regarding the navigation bar and some general layout of the page.
 
