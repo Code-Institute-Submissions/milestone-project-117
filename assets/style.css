@@ -3,9 +3,13 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-.cus-h2 {
+.cus-h {
+    text-align: center;
+    text-transform: uppercase;
     letter-spacing: 2px;
+
 }
+
 
 
 .mg-auto {
@@ -31,6 +35,17 @@ body {
 
 .no-pad {
     padding: 0;
+}
+
+/* Override boostrap class */
+
+.modal-dialog {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 40px;
+    border-radius: 15px;
+    border: 2px black;
+
 }
 
 .grey-btn {
@@ -67,6 +82,18 @@ body {
 }
 
 
+.cus-icon {
+
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 10px;
+    font-size: 200%;
+    color: lightgreen;
+
+}
+
+
+
 /* colors */
 
 .light-green {
@@ -91,7 +118,7 @@ body {
     text-decoration: underline;
 }
 
-header .cus-h2 {
+.cus-h2 {
     text-shadow: 1px 1px 2px darkgrey;
 }
 
@@ -106,16 +133,6 @@ header .cus-h2 {
     
 }
 
-
-.ftr-icon {
-
-    margin-left: 25px;
-    margin-right: 25px;
-    margin-top: 10px;
-    font-size: 200%;
-    color: lightgreen;
-
-}
 
 .ftr-text {
     font-weight: lighter;
@@ -144,20 +161,10 @@ header .cus-h2 {
     text-align: center;
 }
 
-/* Override boostrap class */
 
-.modal-dialog {
-    width: 80%;
-    margin: 0 auto;
-    margin-top: 40px;
-    border-radius: 15px;
-    border: 2px black;
-
-}
 
 .modal-h5 {
-    text-transform: uppercase;
-    text-align: center;
+  
     margin-top: 20px;
     color: black;
     letter-spacing: 1px;
@@ -178,24 +185,21 @@ header .cus-h2 {
 }
 
 .sec-h2 {
-    text-align: center;
+
     margin-top: 40px;
     margin-bottom: 40px;
     margin-left: 0px;
     margin-right: 0px;
-    text-transform: uppercase;
     font-size: 120%;
 }
 
 .sec-h3 {
-    text-align: center;
-    text-transform: uppercase;
-    letter-spacing: 2px;
+   
     padding-top: 15px;
     padding-bottom: 15px;
 }
 
-.hero-img {
+#hero-img {
     width: 100%;
     height: 500px;
     background-image: url("images/treadmill.jpg");
@@ -204,7 +208,7 @@ header .cus-h2 {
     opacity: 0.9;
 }
 
-.bg-im-index {
+#bg-img-index {
 
     background-image: url(images/treadmillopacity.png);
     background-repeat: no-repeat;
@@ -254,13 +258,12 @@ header .cus-h2 {
 /*section signup.html */
 
 .form-h3 {
-    text-align: center;
-    text-transform: uppercase;
+ 
     letter-spacing: 1px;
     margin-bottom: 20px;
 }
 
-.bg-img-two {
+#bg-img-sp {
     background-image: url("images/dumbellsopacity.png");
     background-position: center;
     background-repeat: no-repeat;
