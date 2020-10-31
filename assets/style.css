@@ -68,6 +68,7 @@ body {
 
     background-color: lightgreen;
     border: none;
+    margin-top: 10px;
     margin-bottom: 30px;
     -webkit-transition: 1s;
     -moz-transition: 1s;
@@ -79,6 +80,13 @@ body {
 
 .green-btn:hover {
     background-color: green;
+}
+
+.cus-icon-bg {
+    background-color: lightgreen;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
 }
 
 
@@ -170,10 +178,34 @@ body {
     letter-spacing: 1px;
 }
 
+.loc-icon {
+
+    font-size: x-large;
+    background-color: lightgreen;
+    color: white;
+    border-radius: 3px;
+    height: 30px;
+    width: 30px;
+    padding-top: 3px;
+    padding-left: 2px;
+    vertical-align: text-bottom;
+
+}
+
 
 
 
 /* section index.html */
+
+
+.sec-txt-area {
+    margin-top: 30px;
+    height: 25%;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px darkgrey;
+    
+}
 
 .sec-p {
     margin: 7px;
@@ -221,15 +253,6 @@ body {
 
 
 
-.sec-txt-area {
-    margin-top: 30px;
-    height: 25%;
-    background-color: white;
-    border-radius: 20px;
-    box-shadow: 5px 5px 10px darkgrey;
-    
-}
-
 #top-sec-mrg {
     margin-top: 100px;
 }
@@ -263,20 +286,9 @@ body {
     margin-bottom: 20px;
 }
 
-#bg-img-sp {
-    background-image: url("images/dumbellsopacity.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-color: black;  
-    height: 100%;
-    width: 100%;
-    min-height: 700px;
-
-
-}
 
 .form-area {
+    
     background-color: white;
     width: 100%;
     margin-top: 120px;
@@ -289,7 +301,8 @@ body {
 }
 
 .form-item {
-    margin-bottom: 15px;
+    
+    margin-bottom: 20px;
     padding: 0px;
     
     
@@ -331,9 +344,20 @@ body {
 .sp-icon {
 
     margin-top: 0px;
-    margin-left: 20px;
-    font-size: x-large;
+    margin-left: 0px;
+    font-size: xx-large;
 }
+
+.cus-sp-icon {
+
+    background-color: lightgreen;
+    color: white;
+    height: 30px;
+    width: 30px;
+    text-align: center;
+    border-radius: 3px;
+}
+
 
 .cus-input {
     width: 70%;
@@ -342,7 +366,28 @@ body {
 }
 
 .sp-text {
-    font-weight: bolder;
+    font-weight: 550;
+    margin-left: 5px;
+    font-size: 90%;
+}
+
+#bg-img-sp {
+    background-image: url("images/dumbellsopacity.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: black;  
+    height: 100%;
+    width: 100%;
+    min-height: 700px;
+
+
+}
+
+
+#adr-icon {
+    font-size: x-large;
+    padding-top: 2px;
 }
 
 
@@ -354,16 +399,6 @@ body {
     }
 }
 
-@media screen and (max-width: 767.5px) {
-    .form-item {
-    text-align: center; 
-    }
-
-    
-
-
-   
-   }
 
 @media screen and (min-width: 767.5px) {
     .ft-icon-wrap {

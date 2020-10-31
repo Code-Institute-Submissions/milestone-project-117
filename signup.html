@@ -76,16 +76,16 @@
                 Fill out and submit this form to become a member
               </p>
 
-              <form form action="#" method="post" target="_blank">
+              <form action="#" method="post" target="_blank">
                 <div class="row">
-                  <div class="col-12 col-md-4 offset-md-0 form-item">
+                  <div class="col-6 offset-2 form-item">
                     <label for="name"
-                      ><i class="fas fa-signature cont-icon cus-icon sp-icon"
+                      ><i class="fas fa-signature cont-icon cus-icon sp-icon cus-sp-icon"
                         ><span class="sr-only">Signature icon</span></i
                       ><span class="sp-text">Name</span></label
                     >
                   </div>
-                  <div class="col-12 col-md-8 offset-md-0 form-item">
+                  <div class="col-12 form-item align-c">
                     <input
                       type="text"
                       id="name"
@@ -95,14 +95,14 @@
                     />
                   </div>
 
-                  <div class="col-12 col-md-4 offset-md-0 form-item">
+                  <div class="col-6 offset-2  form-item">
                     <label for="address"
-                      ><i class="fas fa-house-user cont-icon cus-icon sp-icon"
+                      ><i class="fas fa-house-user cont-icon cus-icon sp-icon cus-sp-icon" id="adr-icon"
                         ><span class="sr-only">House icon</span></i
                       ><span class="sp-text">Address</span></label
                     >
                   </div>
-                  <div class="col-12 col-md-8 offset-md-0 form-item">
+                  <div class="col-12 form-item align-c">
                     <input
                       type="text"
                       id="address"
@@ -112,14 +112,14 @@
                     />
                   </div>
 
-                  <div class="col-12 col-md-4 offset-md-0 form-item">
+                  <div class="col-6 offset-2 form-item">
                     <label for="phone"
                       ><i class="fas fa-phone-square cont-icon cus-icon sp-icon"
                         ><span class="sr-only">Phone icon</span></i
                       ><span class="sp-text">Phone Number</span></label
                     >
                   </div>
-                  <div class="col-12 col-md-8 offset-md-0 form-item">
+                  <div class="col-12 form-item align-c">
                     <input
                       type="tel"
                       id="phone"
@@ -129,15 +129,15 @@
                     />
                   </div>
 
-                  <div class="col-12 col-md-4 offset-md-0 form-item">
+                  <div class="col-6 offset-2 form-item">
                     <label for="email"
                       ><i
                         class="fas fa-envelope-square cont-icon cus-icon sp-icon"
-                        ><span class="sr-only">Email icon</span></i
-                      ><span class="sp-text">Email</span></label
+                        ><span class="sr-only">Email icon</span></i>
+                      <span class="sp-text">Email</span></label
                     >
                   </div>
-                  <div class="col-12 col-md-8 offset-md-0 form-item">
+                  <div class="col-12 form-item align-c">
                     <input
                       type="email"
                       id="email"
@@ -177,12 +177,12 @@
       <div class="row">
         <div class="col-12 col-md-4 d-lg-none">
           <div class="align-c">
-            <!-- bootstrap button and trigger for modal -->
+            <!-- bootstrap button -->
             <button
               type="button"
               class="btn btn-primary green-btn"
               data-toggle="modal"
-              data-target="#exampleModal2"
+              data-target="#exampleModal"
             >
               Contact
             </button>
@@ -191,9 +191,8 @@
           <!-- bootstrap modal -->
           <div
             class="modal fade"
-            id="exampleModal2"
+            id="exampleModal"
             tabindex="-1"
-            aria-labelledby="exampleModalLabel"
             aria-hidden="true"
           >
             <div class="modal-dialog">
@@ -211,7 +210,7 @@
 
                   <div class="col-12">
                     <i
-                      class="fas fa-search-location cus-icon cont-icon cont-icon-modal"
+                      class="fas fa-search-location cus-icon cont-icon cont-icon-modal loc-icon"
                       ><span class="sr-only">Location icon</span></i
                     >
                     <span>Big Street 45 Stockholm</span>
@@ -254,7 +253,7 @@
           >
           <span class="ftr-text">fitnesscenter@gmail.com</span>
 
-          <i class="fas fa-search-location cont-icon cus-icon"
+          <i class="fas fa-search-location cont-icon cus-icon loc-icon"
             ><span class="sr-only">Location icon</span></i
           >
           <span class="ftr-text">Big Street 45 Stockholm</span>
@@ -264,6 +263,8 @@
         <div
           class="col-12 col-md-6 offset-md-2 col-lg-4 offset-lg-0 ft-icon-wrap no-pad"
         >
+          <!--d-md-none is a bootstrap class  -->
+
           <!-- i element classes are from fontawsome, hvr classes are from hover.css  -->
           <a
             href="https://www.facebook.com/"
@@ -289,7 +290,7 @@
       </div>
     </footer>
 
-    <!-- bootstrap scripts -->
+    <!--javascript scripts imported to make certain functions in bootstrap work (jquery,popper and boostraps own javascript library-->
     <script
       src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
       integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"

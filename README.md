@@ -58,7 +58,7 @@ I took inspiration from a particular gym's website (see credits) and I also made
 
 * [Bootstrap](https://getbootstrap.com/)
 
-Bootstrap was used to make the elements in the pages responsive with their container, row and col classes.
+Bootstrap was used to make the elements in the pages responsive with their container, row, col and offset classes.
 It was also used for buttons, navbars and modals throughout the project, which both saved time and provided functionality which would have otherwise required the use of custom JavaScript.
 
 As part of the use of Bootstrap a few JavaScript libraries has been included (JQuery, Popper and Bootstraps own JavaScript library).
@@ -97,9 +97,9 @@ Adobe XD was used to create the wireframes and mockups for the project
 Chrome Developer Tool was used throughout the project to check the responsiveness of the pages. The project was also run across different web browsers such as Chrome,
 Internet Explorer and Microsoft Edge to make sure it looked the way it was intended.
 
-The CSS code was run through the WC3 CSS Validator (https://jigsaw.w3.org/css-validator/) without any issues.
+The CSS code was run through the WC3 CSS Validator (https://jigsaw.w3.org/css-validator/) without any errors.
 
-The HTML code was run through the WC3 Markup Validator (https://validator.w3.org/) without any issues.
+The HTML code was run through the WC3 Markup Validator (https://validator.w3.org/) without any errors.
 
 ### User Stories
 
