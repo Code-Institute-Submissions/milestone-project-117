@@ -29,9 +29,6 @@ body {
     text-align: right;
 }
 
-.uppercase {
-    text-transform: uppercase;
-}
 
 .no-pad {
     padding: 0;
@@ -102,17 +99,6 @@ body {
 
 
 
-/* colors */
-
-.light-green {
-    color: lightgreen;
-}
-
-.bg-color-green {
-    background-color: lightgreen;
-}
-
-
 /* header */
 
 
@@ -128,6 +114,7 @@ body {
 
 .cus-h2 {
     text-shadow: 1px 1px 2px darkgrey;
+    color: lightgreen;
 }
 
 /* footer */
@@ -182,7 +169,7 @@ body {
 
     font-size: x-large;
     background-color: lightgreen;
-    color: white;
+    color: #f8f9fa;
     border-radius: 3px;
     height: 30px;
     width: 30px;
