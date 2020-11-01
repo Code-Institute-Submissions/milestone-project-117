@@ -83,7 +83,7 @@ Github was used to store the repository and to deploy the project
 
 Gitpod was the IDE used to create the project
 
-* Git 
+* [Git](https://git-scm.com/) 
 
 For version control through the gitpod terminal
 
@@ -97,9 +97,9 @@ Adobe XD was used to create the wireframes and mockups for the project
 Chrome Developer Tool was used throughout the project to check the responsiveness of the pages. The project was also run across different web browsers such as Chrome,
 Internet Explorer and Microsoft Edge to make sure it looked the way it was intended.
 
-The CSS code was run through the WC3 CSS Validator (https://jigsaw.w3.org/css-validator/) without any errors.
+The CSS code was run through the [WC3 CSS Validator](https://jigsaw.w3.org/css-validator/) without any errors.
 
-The HTML code was run through the WC3 Markup Validator (https://validator.w3.org/) without any errors.
+The HTML code was run through the [WC3 Markup Validator](https://validator.w3.org/) without any errors.
 
 ### User Stories
 
@@ -123,8 +123,8 @@ All of the contact information is located in the footer which looks the same acr
 
 The project was deployed on Github Pages by choosing the master branch in the settings page within the repository.
 
-Link to the repository: https://github.com/davidlidebrandt/milestone-project-1
-Link to the deployed project: https://davidlidebrandt.github.io/milestone-project-1/
+[Link to the repository](https://github.com/davidlidebrandt/milestone-project-1) <br><br>
+[Link to the deployed project](https://davidlidebrandt.github.io/milestone-project-1/)
 
 ## Credits 
 
@@ -138,6 +138,6 @@ All of the images came from [Pexels](https://www.pexels.com/royalty-free-images/
 
 ### Acknowledgments
 
-https://nordicwellness.se/ For inspiration regarding the navigation bar and some general layout of the page.
+https://nordicwellness.se/ : For inspiration regarding the navigation bar and some general layout of the page.
 
 Thanks to my mentor and tutors for continuous support throughout the project.
