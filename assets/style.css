@@ -423,11 +423,14 @@ section {
     
     .form-area {
 
-        margin-top: 280px;
+        margin-top: 300px;
         
     }
 
     #bg-img-sp {
-        min-height: 1300px;
+        min-height: 1400px;
     }
+
+    
 }
+
