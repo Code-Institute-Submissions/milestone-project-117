@@ -1,5 +1,6 @@
 
 body {
+    
     font-family: 'Roboto', sans-serif;
     /* this part is taken from a post by user name m.spyratos to make the footer stick to the bottom: 
     https://stackoverflow.com/questions/643879/css-to-make-html-page-footer-stay-at-bottom-of-the-page-with-a-minimum-height-b  
@@ -10,6 +11,7 @@ body {
 }
 
 section {
+    
     /* this part is also taken from the same post as the mentioned in the body*/
     flex: 1;
 }
@@ -415,4 +417,17 @@ section {
     }
 
    
+}
+
+@media screen and (min-height: 767.5px) {
+    
+    .form-area {
+
+        margin-top: 280px;
+        
+    }
+
+    #bg-img-sp {
+        min-height: 1300px;
+    }
 }
