@@ -238,7 +238,7 @@ section {
 }
 
 #top-gall-mrg {
-    margin-top: 50px;
+    margin-top: 75px;
 }
 
 /*section signup.html */
@@ -354,7 +354,8 @@ section {
     #bg-img-sp {
         min-height: 1400px;
     }
-
-    
+    #hero-img {
+               height: 600px;
+    }
 }
 

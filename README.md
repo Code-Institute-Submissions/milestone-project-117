@@ -25,9 +25,9 @@ A few notes on the changes I made from the mockups and wireframes. After consult
 I took inspiration from a particular gym's website (see credits) and I also made a few other minor changes to the finished project.
 
 
-* [Wireframe Mobile](assets/images/wireframe-mobile.jpg)
-* [Wireframe Tablet](assets/images/wireframe-tablet.jpg)
-* [Wireframe Desktop](assets/images/wireframe-desktop.jpg)
+* [Wireframe Mobile](assets/images/wireframes-and-mockups/wireframe-mobile.jpg)
+* [Wireframe Tablet](assets/images/wireframes-and-mockups/wireframe-tablet.jpg)
+* [Wireframe Desktop](assets/images/wireframes-and-mockups/wireframe-desktop.jpg)
 
 * [Mockup Mobile](assets/images/mockup-mobile.jpg)
 * [Mockup Tablet](assets/images/mockup-tablet.jpg)
