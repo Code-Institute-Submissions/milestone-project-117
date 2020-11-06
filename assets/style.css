@@ -251,8 +251,8 @@ section {
 .form-area {
     background-color: white;
     width: 100%;
-    margin-top: 120px;
-    margin-bottom: 40px;
+    margin-top: 25%;
+    margin-bottom: 10%;
     padding-top: 40px;
     padding-bottom: 40px;
     border-radius: 15px;
@@ -346,16 +346,23 @@ section {
     }
 }
 
-@media screen and (min-height: 767.5px) {
+ @media screen and (min-height: 767.5px) { 
     .form-area {
-        margin-top: 300px;
+        
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+
+    .sep-fields {
+        margin-top: 60px;
     }
 
     #bg-img-sp {
-        min-height: 1400px;
+        min-height: 1300px;
     }
     #hero-img {
                height: 600px;
     }
-}
+
+} 
 
