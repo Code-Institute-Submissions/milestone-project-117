@@ -12,9 +12,9 @@ The goal of the project is to create a responsive and easily navigated site that
 
 * As a potential member I want easy access to information about what the gym offers.
 
-* As a potential member I want to see images from the gym to get a feel if it is the right choice.
+* As a potential member I want to see images from the gym to get a feel of the environment at the gym.
 
-* As a potential member I want clear and simple instructions how to become a member.
+* As a potential member I want clear and simple instructions on how to become a member.
 
 * As a potential member I want easy access to contact information.
 
@@ -94,8 +94,12 @@ Adobe XD was used to create the wireframes and mockups for the project
 
 ## Testing
 
-Chrome Developer Tool was used throughout the project to check the responsiveness of the pages. The project was also run across different web browsers such as Chrome,
+Chrome Developer Tool was used throughout the project to check the responsiveness of the pages. Another tool that was used
+was the page http://whatismyscreenresolution.net/multi-screen-test, where the page was simulated on a variatey of common devices.  
+The project was also run across different web browsers such as Chrome,
 Internet Explorer and Microsoft Edge to make sure it looked the way it was intended.
+
+All of the links has been tested to ensure none are broken and the form has been tested to make sure it requires the correct information.
 
 The CSS code was run through the [WC3 CSS Validator](https://jigsaw.w3.org/css-validator/) without any errors.
 

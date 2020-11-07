@@ -313,8 +313,12 @@ section {
     font-size: 90%;
 }
 
+.help-text {
+    font-size: 80%;
+}
+
 .sep-fields {
-    margin-top: 30px;
+    margin-top: 40px;
 }
 
 #bg-img-sp {
