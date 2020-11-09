@@ -30,9 +30,9 @@ I took inspiration from a particular gym's website (see credits) and I also made
 * [Wireframe Tablet](assets/images/wireframes-and-mockups/wireframe-tablet.jpg)
 * [Wireframe Desktop](assets/images/wireframes-and-mockups/wireframe-desktop.jpg)
 
-* [Mockup Mobile](assets/images/mockup-mobile.jpg)
-* [Mockup Tablet](assets/images/mockup-tablet.jpg)
-* [Mockup Desktop](assets/images/mockup-desktop.jpg)
+* [Mockup Mobile](assets/images/wireframes-and-mockups/mockup-mobile.jpg)
+* [Mockup Tablet](assets/images/wireframes-and-mockups/mockup-tablet.jpg)
+* [Mockup Desktop](assets/images/wireframes-and-mockups/mockup-desktop.jpg)
    
 
 ## Features
