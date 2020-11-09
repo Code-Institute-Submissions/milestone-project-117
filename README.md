@@ -104,7 +104,9 @@ Internet Explorer and Microsoft Edge to make sure it looked the way it was inten
 
 The toggle function of the navbar was tested to make sure it expanded and contracted as expected.
 
-All of the links has been tested to ensure that none are broken, all links to external sites was tested and opens in a new window. The form has been tested to make sure it requires a 10 digit number to be entered in the phone number input field
+All of the links has been tested to ensure that none are broken, all links to external sites was tested and opens in a new window. 
+
+The form has been tested to make sure it requires a 10 digit number to be entered in the phone number input field
 and that a @ sign is included in the e-mail input field.
 
 The CSS code was run through the [WC3 CSS Validator](https://jigsaw.w3.org/css-validator/) without any errors.
