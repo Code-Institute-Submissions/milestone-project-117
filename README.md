@@ -3,6 +3,14 @@
 <img src="assets/images/wireframes-and-mockups/image-index2.png"
      alt="Index page of deplyed project"
      style="height: 200px; width: 400px;" />
+     
+<img src="assets/images/wireframes-and-mockups/image-gallery.png"
+     alt="Index page of deplyed project"
+     style="height: 200px; width: 400px;" />
+
+<img src="assets/images/wireframes-and-mockups/image-signup.png"
+     alt="Index page of deplyed project"
+     style="height: 200px; width: 400px;" />
 
 The project is intended to recruit members to a (fictional) gym. By providing the user with a clear, easily navigated and responsive web page it hopes to attract their attention and liking and make them sign up for a membership.
 
