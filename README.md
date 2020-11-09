@@ -54,7 +54,6 @@ I took inspiration from a particular gym's website (see credits) and I also made
 * Increased functionality in the image gallery page to make it possible to enlarge and view pictures in a separate window.
 * Adding videos clips from the gym.
 * Connecting the submitted form to a server that receives and registers the information and then sends an email to the user to confirm their membership.
-* Adding functionality that requires the "Terms and Conditions" checkbox to be checked before the form can be submitted.
 
 ## Technologies Used
 
@@ -101,7 +100,7 @@ Adobe XD was used to create the wireframes and mockups for the project
 ## Testing
 
 Chrome Developer Tool was used throughout the project to check the responsiveness of the pages. Another tool that was used
-was the page http://whatismyscreenresolution.net/multi-screen-test, where the page was simulated on a variatey of common devices.  
+was the page http://whatismyscreenresolution.net/multi-screen-test, where the page was simulated on a variety of common devices.  
 
 The project was also run across different web browsers such as Chrome,
 Internet Explorer and Microsoft Edge to make sure it looked the way it was intended.
@@ -141,7 +140,7 @@ The project was deployed on Github Pages on https://github.com/, the following s
 1. Went to https://github.com/.
 2. Chose the right repsitory on the left side of the page.
 3. Clicked on the settings icon.
-4. Scrolled down to the Github Pages section
+4. Scrolled down to the Github Pages section.
 5. Chose the master branch as source and pressed save.
 6. Found the link to the deployed project in the Github Pages section after a few minutes.
 
