@@ -1,6 +1,10 @@
 # Milestone Project 1
 
-The project is intended to recruit members to a (fictional) gym by providing an easily navigated and responsive web page.
+<img src="assets/images/wireframes-and-mockups/image-index2.png"
+     alt="Index page of deplyed project"
+     style="height: 200px; width: 400px;" />
+
+The project is intended to recruit members to a (fictional) gym. By providing the user with a clear, easily navigated and responsive web page it hopes to attract their attention and liking and make them sign up for a membership.
 
 
 [Link to the deployed project](https://davidlidebrandt.github.io/milestone-project-1/)
@@ -42,7 +46,7 @@ I took inspiration from a particular gym's website (see credits) and I also made
 * An easily accessible navigation bar at the top  that looks the same across all three pages, with which the user can navigate between the pages.
 * A footer that looks the same across the pages which hides certain contact information on smaller screns and instead provides a button that links to a modal where the same information can be found.
 * A responsive gallery page where the user can scroll down and see images from the gym.
-* A sign up form where the user can enter their personal info and sign up for a membership (At this moment the submit button does not actually submit any info).
+* A sign up form where the user can enter their personal info and sign up for a membership (At this moment the submit button does not actually submit any information).
 
 
 ### Future Features
@@ -129,14 +133,14 @@ There is a link from the navbar as well as a button located in the index page wh
 
 * As a potential member I want easy access to contact information.
 
-All of the contact information is located in the footer which looks the same across the pages. On large screen sizes the contact information is written out while on medium and small screen sizes there is a button to a modal that expands in front of the rest of the screen which makes it easier to read.
+All of the contact information is located in the footer which looks the same across the pages. On large screen sizes the contact information is written in the footer. On medium and small screen sizes the information dissappears and instead there is a button to a modal that expands in front of the rest of the screen with the information, which makes it easier to read.
 
 ## Deployment
 
 The project was deployed on Github Pages on https://github.com/, the following steps were taken:
 1. Went to https://github.com/.
 2. Chose the right repsitory on the left side of the page.
-3. Clicked the settings icon.
+3. Clicked on the settings icon.
 4. Scrolled down to the Github Pages section
 5. Chose the master branch as source and pressed save.
 6. Found the link to the deployed project in the Github Pages section after a few minutes.
@@ -159,4 +163,4 @@ All of the images came from [Pexels](https://www.pexels.com/royalty-free-images/
 
 https://nordicwellness.se/ : For inspiration regarding the navigation bar and some general layout of the page.
 
-Thanks to the mentor and tutors at Code Institute for continuous support throughout the project.
+Thanks to the mentors and tutors at Code Institute for continuous support throughout the project.
