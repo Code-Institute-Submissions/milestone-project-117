@@ -23,7 +23,7 @@
       integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
       crossorigin="anonymous"
     />
-   
+
     <link rel="stylesheet" href="assets/style.css" />
   </head>
   <body>
@@ -45,6 +45,7 @@
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <!-- ml-auto is also from bootstrap -->
           <div class="navbar-nav ml-auto">
             <a class="nav-link" href="index.html"
               ><span class="nav-li">Home</span>
@@ -59,7 +60,8 @@
         </div>
       </nav>
     </header>
-    
+
+    <!-- Conainer and nested row, offset and col classes are from bootstrap -->
     <section class="container-fluid">
       <div class="row">
         <div class="col" id="bg-img-sp">
@@ -69,10 +71,10 @@
             >
               <h3 class="cus-h form-h3">Sign Up Today!</h3>
               <div class="col-10 offset-1">
-              <p class="p-mg-btm">
-                Fill out and submit this form to become a member.
-              </p></div>
-
+                <p class="p-mg-btm">
+                  Fill out and submit this form to become a member.
+                </p>
+              </div>
               <form action="#" method="post" target="_blank">
                 <div class="row">
                   <div class="col-6 offset-2 form-item">
@@ -83,7 +85,9 @@
                     >
                   </div>
                   <div class="col-10 offset-2 no-pad">
-                  <span class="help-text">Enter your first and last name</span>
+                    <span class="help-text"
+                      >Enter your first and last name</span
+                    >
                   </div>
                   <div class="col-12 form-item align-c">
                     <input
@@ -95,15 +99,15 @@
                     />
                   </div>
 
-                  <div class="col-6 offset-2  form-item">
+                  <div class="col-6 offset-2 form-item">
                     <label for="address" class="sep-fields"
                       ><i class="fas fa-house-user cus-icon sp-icon"
                         ><span class="sr-only">House icon</span></i
                       ><span class="sp-text">Address</span></label
                     >
                   </div>
-                   <div class="col-10 offset-2 no-pad">
-                  <span class="help-text">Enter your city and street</span>
+                  <div class="col-10 offset-2 no-pad">
+                    <span class="help-text">Enter your city and street</span>
                   </div>
                   <div class="col-12 form-item align-c">
                     <input
@@ -122,8 +126,10 @@
                       ><span class="sp-text">Phone Number</span></label
                     >
                   </div>
-                   <div class="col-10 offset-2 no-pad">
-                  <span class="help-text">Enter your 10 digit phone number</span>
+                  <div class="col-10 offset-2 no-pad">
+                    <span class="help-text"
+                      >Enter your 10 digit phone number</span
+                    >
                   </div>
                   <div class="col-12 form-item align-c">
                     <input
@@ -138,14 +144,14 @@
 
                   <div class="col-6 offset-2 form-item">
                     <label for="email" class="sep-fields"
-                      ><i
-                        class="fas fa-envelope cus-icon sp-icon"
-                        ><span class="sr-only">Email icon</span></i>
+                      ><i class="fas fa-envelope cus-icon sp-icon"
+                        ><span class="sr-only">Mail icon</span></i
+                      >
                       <span class="sp-text">Email</span></label
                     >
                   </div>
-                   <div class="col-10 offset-2 no-pad">
-                  <span class="help-text">Enter your e-mail address</span>
+                  <div class="col-10 offset-2 no-pad">
+                    <span class="help-text">Enter your e-mail address</span>
                   </div>
                   <div class="col-12 form-item align-c">
                     <input
@@ -155,18 +161,17 @@
                       class="cus-input"
                     />
                   </div>
-
                   <div class="col-8 offset-2 form-item check-b align-c">
                     <div class="sep-fields">
-                    <label for="agree">
-                     <span>I Agree To The Terms And Conditions</span></label
-                    ><input
-                      type="checkbox"
-                      id="agree"
-                      name="agree"
-                      value="agree"
-                      class="mg-check"
-                    />
+                      <label for="agree">
+                        <span>I Agree To The Terms And Conditions</span></label
+                      ><input
+                        type="checkbox"
+                        id="agree"
+                        name="agree"
+                        value="agree"
+                        class="mg-check"
+                      />
                     </div>
                   </div>
                   <div class="col-12 align-c">
@@ -199,7 +204,6 @@
               Contact
             </button>
           </div>
-
           <!-- bootstrap modal -->
           <div
             class="modal fade"
@@ -213,29 +217,25 @@
                 <!-- i element classes (icons) are from fontawsome -->
                 <div class="row">
                   <div class="col-12">
-                    <i
-                      class="fas fa-phone-square cus-icon cont-icon cont-icon-modal"
+                    <i class="fas fa-phone-square cus-icon cont-icon-modal"
                       ><span class="sr-only">Phone icon</span></i
                     >
                     <span>0774557724</span>
                   </div>
-
                   <div class="col-12">
                     <i
-                      class="fas fa-search-location cus-icon cont-icon cont-icon-modal loc-icon"
+                      class="fas fa-search-location cus-icon cont-icon-modal loc-icon"
                       ><span class="sr-only">Location icon</span></i
                     >
                     <span>Big Street 45 Stockholm</span>
                   </div>
                   <div class="col-12">
-                    <i
-                      class="fas fa-envelope-square cus-icon cont-icon cont-icon-modal"
-                      ><span class="sr-only">Email icon</span></i
+                    <i class="fas fa-envelope-square cus-icon cont-icon-modal"
+                      ><span class="sr-only">Mail icon</span></i
                     >
                     <span>fitnesscenter@gmail.com</span>
                   </div>
                 </div>
-
                 <div class="align-c">
                   <!-- bootstrap button -->
                   <button
@@ -250,33 +250,26 @@
             </div>
           </div>
         </div>
-
         <!-- col and d-lg-block classes are from bootstrap -->
         <div class="col-8 d-none d-lg-block no-pad">
           <!-- i element classes (icons) are from fontawsome -->
-
           <i class="fas fa-phone-square cont-icon cus-icon"
             ><span class="sr-only">Phone icon</span></i
           >
           <span class="ftr-text">0774557724</span>
-
           <i class="fas fa-envelope-square cont-icon cus-icon"
-            ><span class="sr-only">Email icon</span></i
+            ><span class="sr-only">Mail icon</span></i
           >
           <span class="ftr-text">fitnesscenter@gmail.com</span>
-
           <i class="fas fa-search-location cont-icon cus-icon loc-icon"
             ><span class="sr-only">Location icon</span></i
           >
           <span class="ftr-text">Big Street 45 Stockholm</span>
         </div>
-
         <!-- col and offset classes are from bootstrap -->
         <div
           class="col-12 col-md-6 offset-md-2 col-lg-4 offset-lg-0 ft-icon-wrap no-pad"
         >
-          <!--d-md-none is a bootstrap class  -->
-
           <!-- i element classes are from fontawsome, hvr classes are from hover.css  -->
           <a
             href="https://www.facebook.com/"
@@ -302,12 +295,11 @@
       </div>
     </footer>
 
-     <!-- fontawsome script -->
+    <!-- fontawsome script -->
     <script
       src="https://kit.fontawesome.com/30b290cadc.js"
       crossorigin="anonymous"
     ></script>
-
     <!--javascript scripts imported to make certain functions in bootstrap work (jquery,popper and boostraps own javascript library-->
     <script
       src="https://code.jquery.com/jquery-3.5.1.slim.min.js"

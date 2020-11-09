@@ -1,6 +1,7 @@
 # Milestone Project 1
 
-The project is intended to recruit members to a (fictional) gym by providing and easily navigated and responsive web page.
+The project is intended to recruit members to a (fictional) gym by providing an easily navigated and responsive web page.
+
 
 [Link to the deployed project](https://davidlidebrandt.github.io/milestone-project-1/)
 
@@ -39,16 +40,17 @@ I took inspiration from a particular gym's website (see credits) and I also made
 ### Existing Features
 
 * An easily accessible navigation bar at the top  that looks the same across all three pages, with which the user can navigate between the pages.
+* A footer that looks the same across the pages which hides certain contact information on smaller screns and instead provides a button that links to a modal where the same information can be found.
 * A responsive gallery page where the user can scroll down and see images from the gym.
-* A sign up form where the user can enter their personal info and sign up for a membership. (At this moment the submit button does not actually submit any info).
+* A sign up form where the user can enter their personal info and sign up for a membership (At this moment the submit button does not actually submit any info).
 
 
 ### Future Features
 
 * Increased functionality in the image gallery page to make it possible to enlarge and view pictures in a separate window.
 * Adding videos clips from the gym.
-* Adding functionality where a server receives and registers the submitted information from the form and then sends an email to the user to confirm their membership.
-* Adding functionality that requires the "Terms and Conditions" checkbox to be checked before the form can be submitted
+* Connecting the submitted form to a server that receives and registers the information and then sends an email to the user to confirm their membership.
+* Adding functionality that requires the "Terms and Conditions" checkbox to be checked before the form can be submitted.
 
 ## Technologies Used
 
@@ -58,7 +60,7 @@ I took inspiration from a particular gym's website (see credits) and I also made
 
 * [Bootstrap](https://getbootstrap.com/)
 
-Bootstrap was used to make the elements in the pages responsive with their container, row, col and offset classes.
+Bootstrap was used to make the elements in the pages responsive with their container, row, col, d and offset classes.
 It was also used for buttons, navbars and modals throughout the project, which both saved time and provided functionality which would have otherwise required the use of custom JavaScript.
 
 As part of the use of Bootstrap a few JavaScript libraries has been included (JQuery, Popper and Bootstraps own JavaScript library).
@@ -96,10 +98,14 @@ Adobe XD was used to create the wireframes and mockups for the project
 
 Chrome Developer Tool was used throughout the project to check the responsiveness of the pages. Another tool that was used
 was the page http://whatismyscreenresolution.net/multi-screen-test, where the page was simulated on a variatey of common devices.  
+
 The project was also run across different web browsers such as Chrome,
 Internet Explorer and Microsoft Edge to make sure it looked the way it was intended.
 
-All of the links has been tested to ensure none are broken and the form has been tested to make sure it requires the correct information.
+The toggle function of the navbar was tested to make sure it expanded and contracted as expected.
+
+All of the links has been tested to ensure that none are broken, all links to external sites was tested and opens in a new window. The form has been tested to make sure it requires a 10 digit number to be entered in the phone number input field
+and that a @ sign is included in the e-mail input field.
 
 The CSS code was run through the [WC3 CSS Validator](https://jigsaw.w3.org/css-validator/) without any errors.
 
@@ -125,7 +131,14 @@ All of the contact information is located in the footer which looks the same acr
 
 ## Deployment
 
-The project was deployed on Github Pages by choosing the master branch in the settings page within the repository.
+The project was deployed on Github Pages on https://github.com/, the following steps were taken:
+1. Went to https://github.com/.
+2. Chose the right repsitory on the left side of the page.
+3. Clicked the settings icon.
+4. Scrolled down to the Github Pages section
+5. Chose the master branch as source and pressed save.
+6. Found the link to the deployed project in the Github Pages section after a few minutes.
+
 
 [Link to the repository](https://github.com/davidlidebrandt/milestone-project-1) <br><br>
 [Link to the deployed project](https://davidlidebrandt.github.io/milestone-project-1/)
@@ -134,7 +147,7 @@ The project was deployed on Github Pages by choosing the master branch in the se
 
 ### Content
 
-None of the content was gathered from external sources.
+All of the text was written by the creator of the project.
 
 ### Media
 
@@ -144,4 +157,4 @@ All of the images came from [Pexels](https://www.pexels.com/royalty-free-images/
 
 https://nordicwellness.se/ : For inspiration regarding the navigation bar and some general layout of the page.
 
-Thanks to my mentor and tutors for continuous support throughout the project.
+Thanks to the mentor and tutors at Code Institute for continuous support throughout the project.
